@@ -1,0 +1,147 @@
+.modal-overlay{
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0,.2);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+}
+.modal{
+    max-width: 800px;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.modal-flex{
+    display: flex;
+    align-items: center;
+}
+.modal-title2{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.modal-text2{
+    
+    margin-top: 20px;
+    font-size: 16px;
+    max-width: 350px;
+    text-align: center;
+}
+.link-modal{
+    color: #3040C4;
+    font-size: 12px;
+}
+.link-modal-p{
+    margin-top: 20px;
+    text-align: center;
+}
+.modal-img-div{
+    padding-left: 30px;
+}
+.modal-img{
+    width: 300px;
+}
+.modal-img{
+    width: 100%;
+}
+.close{
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+}
+.second-modal-overlay{
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0,.2);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+}
+.modal2{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.close2{
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 10px;  
+}
+.input{
+    width: 400px;
+      padding: 13px 0 15px 12px;
+      margin-right: 10px;
+      border: 1px solid rgba(43, 41, 45, 0.2);
+      box-sizing: border-box;
+      border-radius: 2px;
+      font-size: 18px;
+}
+.input::placeholder{
+    font-size: 18px;
+}
+.modal-title{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.25px;
+    margin-bottom: 5px;
+    
+}
+.modal-text{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.input:focus{
+    outline: none;
+}
+.input-holder{
+    width: 100%;
+}
+
+.input-holder{
+    margin-bottom: 15px;
+    position: relative;
+}
+.input22::placeholder{
+    font-size: 18px;
+    color: #2B292D;
+}
+
+@media(max-width:550px){
+    .input{
+        width: 300px;
+        height: 40px;
+    }
+    .modal-img-div{
+        display: none;
+    }
+
+}
+
+@media(max-width:550px){
+    ::-webkit-scrollbar{
+       display: none;
+    }
+}
