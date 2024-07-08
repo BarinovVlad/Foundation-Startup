@@ -12,7 +12,7 @@ $('.trial-conect').on('submit', function (event) {
     $('.submit', form).val('Отправка...');
     $('input, textarea', form).attr('disabled','');
 
-    data.append( 'name', 		$('[name="email22"]', form).val() );
+    data.append( 'email', 		$('[name="email22"]', form).val() );
     
 
     files.each(function (key, file) {
