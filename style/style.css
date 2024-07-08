@@ -349,10 +349,10 @@ line-height: 32px;
 }
 
 .ux>span{
-    margin-left: 220px; 
+    margin-left: 264px; 
 }
 .cm>span{
-    margin-left: 190px;
+    margin-left: 208px;
 }
 .fed>span{
     margin-left: 205px;
@@ -1276,6 +1276,15 @@ padding-bottom: 3px;
   .prodact-footer{
     display: none;
   }
+  .ux>span{
+    margin-left: 200px; 
+}
+.cm>span{
+    margin-left: 170px;
+}
+.fed>span{
+    margin-left: 175px;
+}
 
 
 }
