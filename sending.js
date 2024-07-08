@@ -12,9 +12,8 @@ $('.trial-conect').on('submit', function (event) {
     $('.submit', form).val('Отправка...');
     $('input, textarea', form).attr('disabled','');
 
-    data.append( 'email', 		$('[name="email22"]', form).val() );
-
-   
+    data.append( 'name', 		$('[name="email22"]', form).val() );
+    
 
     files.each(function (key, file) {
         let cont = file.files;
@@ -26,7 +25,7 @@ $('.trial-conect').on('submit', function (event) {
     });
     
     $.ajax({
-        url: 'IDbot.php',
+        url: 'ajax.php',
         type: 'POST',
         data: data,
         cache: false,
