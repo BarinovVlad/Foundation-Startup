@@ -26,7 +26,7 @@ $('.trial-conect').on('submit', function (event) {
     });
     
     $.ajax({
-        url: 'ajax.php',
+        url: 'IDbot.php',
         type: 'POST',
         data: data,
         cache: false,
