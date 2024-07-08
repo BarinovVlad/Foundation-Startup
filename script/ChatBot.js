@@ -1,4 +1,4 @@
-$('.telegram-form').on('submit', function (event) {
+$('.trial-conect').on('submit', function (event) {
 
     event.stopPropagation();
     event.preventDefault();
