@@ -888,12 +888,8 @@ padding-bottom: 3px;
         max-width: 750px;
         align-items: center;
     }
-    .features2{
-        display: block;
-    }
-    .features{
-        display: none;
-    }
+
+ 
     .header-nav{
         display: block;
     }
@@ -1145,6 +1141,12 @@ padding-bottom: 3px;
 @media(max-width:550px){
     .container{
         max-width: 500px;
+    }
+    .features2{
+        display: block;
+    }
+    .features{
+        display: none;
     }
 
     .header-sticky{
