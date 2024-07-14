@@ -170,7 +170,16 @@ text-decoration: none;
     transition: 1s;
 }
 .features{
+    display: block;
+}
+.features2{
+    display: none;
+}
+.features{
     padding-bottom: 103px;
+}
+.features{
+    display: block;
 }
 
 .features-flex{
@@ -832,6 +841,7 @@ padding-bottom: 3px;
 .people-img_media{
     display: none;
 }
+
 .title_media{
     display: none;
 }
@@ -868,6 +878,7 @@ padding-bottom: 3px;
     .container{
         max-width: 1040px;
     }
+ 
     .text:not(:last-child){
         padding-right: 27px;
     } 
@@ -876,6 +887,12 @@ padding-bottom: 3px;
     .container{
         max-width: 750px;
         align-items: center;
+    }
+    .features2{
+        display: block;
+    }
+    .features{
+        display: none;
     }
     .header-nav{
         display: block;
@@ -1129,6 +1146,7 @@ padding-bottom: 3px;
     .container{
         max-width: 500px;
     }
+
     .header-sticky{
         background-color: #FFFFFF;
     }
@@ -1204,6 +1222,7 @@ padding-bottom: 3px;
    .container{
     max-width: 361px;
    }
+
    .section-forbes{
     display: none;
 }
