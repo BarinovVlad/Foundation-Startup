@@ -23,8 +23,9 @@
 // }
 
 const langArr = {
-    "header-text" :  {
-        "en": "Create live segments and target the right people for messages based on their behaviors.",
-        "ua": "створюємо багатомовний сайт",
+    "newText" :  {
+        "en": "Hi dear",
+        "ua": "Привiт друже",
     }, 
+  
 }
